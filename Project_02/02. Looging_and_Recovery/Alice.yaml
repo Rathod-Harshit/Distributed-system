@@ -1,0 +1,14 @@
+adapter: {uri: 'http://localhost:8000'}
+filters:
+- [write, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["alice","distsys2","I like systems more than geo"]']
+- [write, '["alice","distsys3","I like systems more than math"]']
+- [take, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["alice","distsys2","I like systems more than geo"]']
+- [write, '["alice","distsys3","I like systems more than math"]']
+- [take, '["alice","distsys","I like systems more than graphs"]']
+name: Alice
+uri: druby://localhost:12345

@@ -1,0 +1,5 @@
+adapter: {uri: 'http://localhost:8002'}
+filters:
+- [write, '["chuck","distsys","I like systems more than graphs"]']
+name: Chuck
+uri: druby://localhost:12347
