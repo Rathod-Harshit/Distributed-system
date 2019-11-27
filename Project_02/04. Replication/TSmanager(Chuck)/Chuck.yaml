@@ -1,0 +1,10 @@
+adapter: null
+filters:
+- [write, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["alice","distsys2","I like systems more than geo"]']
+- [write, '["alice","distsys3","I like systems more than math"]']
+- [write, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["alice","distsys2","I like systems more than geo"]']
+- [take, '["alice","distsys","I like systems more than graphs"]']
+- [write, '["bob","topic1","content"]']
+name: Chuck
