@@ -1,7 +1,6 @@
 #
 #   Assignment : CPSC-551 Project_03
 #   Authors    : Harshit Singh Rathod (rathod10892@csu.fullerton.edu)
-#                Rahul Chauhan        (rahulchauhan@csu.fullerton.edu)
 #   Program    : ZMQ_PROXY. It allows many to many pub sub model. No need 
 #                to use multiple ports. Publishers can publish to one port
 #                and subscribers can subscribe to a single port
