@@ -2,7 +2,6 @@
 #   Assignment : CPSC-551 Project_03
 #   Author     : From Project_02
 #   MOdified by: Harshit Singh Rathod (rathod10892@csu.fullerton.edu)
-#                Rahul Chauhan        (rahulchauhan@csu.fullerton.edu)
 #   Program    : adapter is modified to get the order of events from clients
 #                and use it to determine if the message is in order.
 #                If not it asks the ts_managers to give it those messages.
