@@ -1,7 +1,6 @@
 #
 #   Assignment : CPSC-551 Project_03
 #   Authors    : Harshit Singh Rathod (rathod10892@csu.fullerton.edu)
-#                Rahul Chauhan        (rahulchauhan@csu.fullerton.edu)
 #   Program    : Lamport clock for all the clients. Clients send their own 
 #                timestamps and get the global clock in return. It helps in
 #                ordering of events. 
