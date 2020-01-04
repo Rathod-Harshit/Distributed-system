@@ -1,7 +1,6 @@
 #
 #   Assignment : CPSC-551 Project_03
 #   Authors    : Harshit Singh Rathod (rathod10892@csu.fullerton.edu)
-#                Rahul Chauhan        (rahulchauhan@csu.fullerton.edu)
 #   Program    : Tuplespace manager. Listen to all events and logs them. 
 #                Uses XPUB/XSUB.
 #                 
