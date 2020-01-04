@@ -1,0 +1,15 @@
+---
+name: Bob
+uri: druby://localhost:12346
+notify:
+  - address: 127.0.0.1
+    port: 5560
+filters:
+  - [ ~, ~ ]
+  - [ ~, ~, ~]
+  - [ ~, ~, ~, ~]
+  - [ ~, ~, ~, ~, ~]
+adapter:
+  host: localhost
+  port: 8001
+  max_clients: 32

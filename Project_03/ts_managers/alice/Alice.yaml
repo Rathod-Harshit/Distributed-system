@@ -1,0 +1,6 @@
+adapter: http://localhost:8000
+filters:
+- ['1', write, '["alice","gtcn","Good"]']
+- ['2', write, '["alice","geo","Bad"]']
+- ['3', take, '["alice","geo","Bad"]']
+name: Alice

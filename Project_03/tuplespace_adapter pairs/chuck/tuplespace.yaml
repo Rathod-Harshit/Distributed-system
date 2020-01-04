@@ -1,0 +1,15 @@
+---
+name: Chuck
+uri: druby://localhost:12347
+notify:
+  - address: 127.0.0.1
+    port: 5560
+filters:
+  - [ ~, ~ ]
+  - [ ~, ~, ~]
+  - [ ~, ~, ~, ~]
+  - [ ~, ~, ~, ~, ~]
+adapter:
+  host: localhost
+  port: 8002
+  max_clients: 32

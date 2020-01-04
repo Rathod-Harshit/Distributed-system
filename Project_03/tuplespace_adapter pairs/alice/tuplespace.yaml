@@ -1,0 +1,15 @@
+---
+name: Alice
+uri: druby://localhost:12345
+notify:
+  - address: 127.0.0.1
+    port: 5560
+filters:
+  - [ ~, ~ ]
+  - [ ~, ~, ~]
+  - [ ~, ~, ~, ~]
+  - [ ~, ~, ~, ~, ~]
+adapter:
+  host: localhost
+  port: 8000
+  max_clients: 32
